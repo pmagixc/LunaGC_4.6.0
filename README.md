@@ -39,7 +39,6 @@ However, if you need a more detailed guide and help with the server please refer
 - Set useEncryption and Questing to false (it should be false by default, if not then change it)
 - Start the server and the game, make sure to also create an account in the LunaGC console!
 - Have fun
-=======
 
 # Precompiled server JAR file
 [Download](https://gi2.pmagickline.xyz/other/private-servers/LunaGC-4.6/precompiled-jar/LunaGC-4.6.0.jar)
@@ -74,3 +73,6 @@ chmod +x gradlew
 ```shell
 ./gradlew generateHandbook
 ```
+
+## Troubleshooting
+- Make sure to set useEncryption and useInRouting both to false otherwise you might see errors.
